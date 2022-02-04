@@ -5,7 +5,7 @@
 from multi_newton import multi_newton
 import numpy as np
 
-def count():
+def count():#Function created by Nolan
     x=0
     for i in 5:
         x+=i
