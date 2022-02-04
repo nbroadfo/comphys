@@ -1,8 +1,16 @@
 # Author: Alex Gezerlis
 # Numerical Methods in Physics with Python (CUP, 2020)
+# This is an edit made my Nolan Broadfoot
 
 from multi_newton import multi_newton
 import numpy as np
+
+def count():
+    x=0
+    for i in 5:
+        x+=i
+    return x
+       
 
 def params():
     nvar = 99; m = 1.
